@@ -3,7 +3,7 @@ import os
 import shutil
 import argparse
 from textwrap import dedent
-
+ 
 parser = argparse.ArgumentParser(description='Separate images for json file.')
 parser.add_argument('-i', help='Images directory', dest='img_dir', required=True)
 parser.add_argument('-j', help='JSON file', dest='json', required=True)
