@@ -1,7 +1,7 @@
 Command for training so that we can not be killed!
 
 python train.py --weights ~/megadetector/md_v5a.0.0.pt --epochs 10 --batch-size 4 --device cpu --data ~/mac/misc/AnimalStuff/megadetector-tutorial-dataset/dataset.yaml --imgsz 320 --freeze 12
-
+ 
 python3 detect.py --name test --device cpu --weights runs/train/exp7/weights/best.pt --imgsz 320 --exist-ok --conf-thres 0.1 --source ~/mac/misc/AnimalStuff/megadetector-tutorial-dataset/test/images
 
 
