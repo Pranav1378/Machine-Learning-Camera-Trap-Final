@@ -10,7 +10,7 @@ parser.add_argument('-y', help='Dataset yaml file', dest='yaml',required=True)
 
 args = parser.parse_args()
 
-json_file = args.json 
+json_file = args.json  
 output = args.out
 yaml_file = args.yaml
 
