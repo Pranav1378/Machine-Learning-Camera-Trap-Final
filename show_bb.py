@@ -8,7 +8,7 @@ import re
 import ast
 import argparse
 
-parser = argparse.ArgumentParser(description='Show yolo bounding boxes.')
+parser = argparse.ArgumentParser(description='Show yolo bounding boxes.') 
 parser.add_argument('-i', help='Images directory', dest='img_dir', required=True)
 parser.add_argument('-a', help='Annotations directory', dest='ann_dir',required=True)
 parser.add_argument('-y', help='Dataset yaml file', dest='yaml',required=True)
